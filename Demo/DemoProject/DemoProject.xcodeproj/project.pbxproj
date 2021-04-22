@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		022D72F9824867B74FC46BF5 /* Pods_DemoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C107EA904C4ABA3E893861 /* Pods_DemoProjectUITests.framework */; };
-		822B18081FD6408800D14C15 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822B18071FD6408800D14C15 /* Info.plist */; };
 		822B180D1FD640E400D14C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822B18091FD640E300D14C15 /* Main.storyboard */; };
 		822B180E1FD640E400D14C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822B180B1FD640E300D14C15 /* LaunchScreen.storyboard */; };
 		82AFB3DD1ED6AE1F00C55582 /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB3DC1ED6AE1F00C55582 /* DemoProjectTests.swift */; };
@@ -17,7 +16,6 @@
 		82AFB4191ED6AE8F00C55582 /* MainLotusoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB4171ED6AE8F00C55582 /* MainLotusoot.swift */; };
 		82AFB41E1ED6AED800C55582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB41D1ED6AED800C55582 /* ViewController.swift */; };
 		82AFB4361ED6B00500C55582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AFB4351ED6B00500C55582 /* AppDelegate.swift */; };
-		82F9C7AC1FD67D6400029DDB /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */; };
 		82F9C7B31FD68A0600029DDB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7AE1FD68A0600029DDB /* Extension.swift */; };
 		82F9C7B41FD68A0600029DDB /* Lotusoot.py in Resources */ = {isa = PBXBuildFile; fileRef = 82F9C7AF1FD68A0600029DDB /* Lotusoot.py */; };
 		82F9C7B51FD68A0600029DDB /* LotusootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7B01FD68A0600029DDB /* LotusootCoordinator.swift */; };
@@ -25,6 +23,7 @@
 		82F9C7B71FD68A0600029DDB /* LotusootURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9C7B21FD68A0600029DDB /* LotusootURL.swift */; };
 		8506302FCB5D55245C238A3B /* Pods_DemoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1D3D24445EB2E09EC7BBB6 /* Pods_DemoProjectTests.framework */; };
 		BF2E96198D91DDC53B89F1F2 /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CA2B785FF4E90F61B51095 /* Pods_DemoProject.framework */; };
+		D09AF8F926311062009635C2 /* Lotusoot.plist in Resources */ = {isa = PBXBuildFile; fileRef = D09AF8F826311062009635C2 /* Lotusoot.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +72,6 @@
 		82AFB4171ED6AE8F00C55582 /* MainLotusoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLotusoot.swift; sourceTree = "<group>"; };
 		82AFB41D1ED6AED800C55582 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82AFB4351ED6B00500C55582 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lotusoot.plist; sourceTree = SOURCE_ROOT; };
 		82F9C7AE1FD68A0600029DDB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		82F9C7AF1FD68A0600029DDB /* Lotusoot.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Lotusoot.py; sourceTree = "<group>"; };
 		82F9C7B01FD68A0600029DDB /* LotusootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotusootCoordinator.swift; sourceTree = "<group>"; };
@@ -84,6 +82,7 @@
 		A1249A6A0A82540C1FC16F1B /* Pods-DemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		C207131EE102CBF01046748E /* Pods-DemoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5C107EA904C4ABA3E893861 /* Pods_DemoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09AF8F826311062009635C2 /* Lotusoot.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Lotusoot.plist; sourceTree = SOURCE_ROOT; };
 		DB857A01E078E9ECEC3CB044 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1D3D24445EB2E09EC7BBB6 /* Pods_DemoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4C3E37CFDA21AB52006130 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,8 +164,8 @@
 		82AFB3C61ED6AE1F00C55582 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				D09AF8F826311062009635C2 /* Lotusoot.plist */,
 				82F9C7AD1FD68A0600029DDB /* Lotusoot */,
-				82F9C7AB1FD67D6400029DDB /* Lotusoot.plist */,
 				822B18071FD6408800D14C15 /* Info.plist */,
 				822B180B1FD640E300D14C15 /* LaunchScreen.storyboard */,
 				822B18091FD640E300D14C15 /* Main.storyboard */,
@@ -233,13 +232,12 @@
 			buildConfigurationList = 82AFB3EC1ED6AE1F00C55582 /* Build configuration list for PBXNativeTarget "DemoProject" */;
 			buildPhases = (
 				1C451DEE166AA06ACCEF9C8C /* [CP] Check Pods Manifest.lock */,
-				82AFB4321ED6AFAF00C55582 /* Lotusoot */,
 				82AFB3C01ED6AE1F00C55582 /* Sources */,
 				82AFB3C11ED6AE1F00C55582 /* Frameworks */,
 				82AFB3C21ED6AE1F00C55582 /* Resources */,
 				82AFB4231ED6AF5700C55582 /* Embed Frameworks */,
 				751C160B832E035CEE4874DA /* [CP] Embed Pods Frameworks */,
-				2AAB084AA4C4538CEDC068B7 /* [CP] Copy Pods Resources */,
+				D09AF8F726310D84009635C2 /* Lotusoot */,
 			);
 			buildRules = (
 			);
@@ -258,8 +256,6 @@
 				82AFB3D41ED6AE1F00C55582 /* Sources */,
 				82AFB3D51ED6AE1F00C55582 /* Frameworks */,
 				82AFB3D61ED6AE1F00C55582 /* Resources */,
-				C59E36AA320042F86D93D2B1 /* [CP] Embed Pods Frameworks */,
-				F4BDF5A8C6A8AEBD6A20D4AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,8 +275,6 @@
 				82AFB3DF1ED6AE1F00C55582 /* Sources */,
 				82AFB3E01ED6AE1F00C55582 /* Frameworks */,
 				82AFB3E11ED6AE1F00C55582 /* Resources */,
-				55CAD8C255BA7D6F520D77F1 /* [CP] Embed Pods Frameworks */,
-				B722E1C4E6AB0CE8D3A894CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,20 +293,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "周凌宇";
 				TargetAttributes = {
 					82AFB3C31ED6AE1F00C55582 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 33TS6KJYJJ;
 						ProvisioningStyle = Automatic;
 					};
 					82AFB3D71ED6AE1F00C55582 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 1230;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 82AFB3C31ED6AE1F00C55582;
 					};
 					82AFB3E21ED6AE1F00C55582 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 1230;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 82AFB3C31ED6AE1F00C55582;
 					};
@@ -320,7 +317,7 @@
 			};
 			buildConfigurationList = 82AFB3BF1ED6AE1F00C55582 /* Build configuration list for PBXProject "DemoProject" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -344,10 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				822B180D1FD640E400D14C15 /* Main.storyboard in Resources */,
-				82F9C7AC1FD67D6400029DDB /* Lotusoot.plist in Resources */,
 				822B180E1FD640E400D14C15 /* LaunchScreen.storyboard in Resources */,
 				82F9C7B41FD68A0600029DDB /* Lotusoot.py in Resources */,
-				822B18081FD6408800D14C15 /* Info.plist in Resources */,
+				D09AF8F926311062009635C2 /* Lotusoot.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,43 +418,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2AAB084AA4C4538CEDC068B7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55CAD8C255BA7D6F520D77F1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		751C160B832E035CEE4874DA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZLYAccountModule/ZLYAccountModule.framework",
 				"${BUILT_PRODUCTS_DIR}/ZLYPublicModule/ZLYPublicModule.framework",
 			);
@@ -469,67 +435,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82AFB4321ED6AFAF00C55582 /* Lotusoot */ = {
+		D09AF8F726310D84009635C2 /* Lotusoot */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
 			name = Lotusoot;
+			outputFileListPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "python Lotusoot.py ${SRC_ROOT}.. ${SRCROOT} Lotusoot\n# 参数1： 扫描路径\n# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址\n# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长";
-		};
-		B722E1C4E6AB0CE8D3A894CA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectUITests/Pods-DemoProjectUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59E36AA320042F86D93D2B1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F4BDF5A8C6A8AEBD6A20D4AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "python2 Lotusoot.py ${SRC_ROOT}.. ${SRCROOT} Lotusoot\n# 参数1： 扫描路径\n# 参数2： ${SRCROOT}，Lotusoot.plist 输出地址\n# 参数3： Lotusoot 命名后缀（可省略），省略将会导致脚本执行时间变长\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -604,21 +529,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -641,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -654,21 +589,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -685,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -699,11 +644,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33TS6KJYJJ;
 				INFOPLIST_FILE = DemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -713,11 +659,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33TS6KJYJJ;
 				INFOPLIST_FILE = DemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -731,7 +678,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoProject.app/DemoProject";
 			};
 			name = Debug;
@@ -746,7 +693,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoProject.app/DemoProject";
 			};
 			name = Release;
@@ -760,7 +707,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = DemoProject;
 			};
 			name = Debug;
@@ -774,7 +721,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhoulingyu.ios.DemoProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = DemoProject;
 			};
 			name = Release;

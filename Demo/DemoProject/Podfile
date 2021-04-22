@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
 source 'https://github.com/summertian4/ZLYSpec.git'
 
 platform :ios, ‘8.0’
@@ -9,7 +9,7 @@ target 'DemoProject' do
 
   # Pods for DemoProject
   pod 'ZLYAccountModule', :path => '../ZLYAccountModule'
-  pod 'ZLYPublicModule', '~> 0.0.1'
+  pod 'ZLYPublicModule', :path => '../ZLYPublicModule'
 
   target 'DemoProjectTests' do
     inherit! :search_paths
